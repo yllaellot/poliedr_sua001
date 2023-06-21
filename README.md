@@ -1,1 +1,1 @@
-# poliedr_sua001
+# polyedr_sua001
