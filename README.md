@@ -1,1 +1,0 @@
-# polyedr_sua001
