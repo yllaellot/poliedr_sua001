@@ -8,7 +8,7 @@ from shadow.polyedr import Polyedr
 tk = TkDrawer()
 try:
     tests = ['test'+str(i) for i in range(1, 8)]
-    for name in tests + ["cube", "box", "pyramid", "king", "cow"]:
+    for name in tests + ["ccc", "cube", "box", "pyramid", "king", "cow"]:
         print("=============================================================")
         print(f"Начало работы с полиэдром '{name}'")
         start_time = time()
@@ -21,4 +21,3 @@ try:
         input("Hit 'Return' to continue -> ")
 except (EOFError, KeyboardInterrupt):
     print("\nStop")
-    tk.close()
